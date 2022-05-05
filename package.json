@@ -1,0 +1,20 @@
+{
+  "name": "@seanvelasco/hl7-astm-parser",
+  "version": "1.0.0",
+  "author": "Sean Velasco <seanvelasco@ieee.org>",
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "ISC",
+  "description": "Package for parsing HL7 and ASTM messages",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build",
+    "package.json",
+    "tsconfig.json"
+  ],
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
