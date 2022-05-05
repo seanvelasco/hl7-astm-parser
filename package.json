@@ -8,6 +8,13 @@
   "license": "ISC",
   "description": "Package for parsing HL7 and ASTM messages",
   "main": "build/index.js",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com:seanvelasco/hl7-astm-parser.git"
+  },
   "types": "build/index.d.ts",
   "files": [
     "build",
