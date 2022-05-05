@@ -1,5 +1,5 @@
 {
-  "name": "@seanvelasco/hl7-astm-parser",
+  "name": "hl7-astm-parser",
   "version": "1.0.0",
   "author": "Sean Velasco <seanvelasco@ieee.org>",
   "scripts": {
@@ -9,6 +9,7 @@
   "description": "Package for parsing HL7 and ASTM messages",
   "main": "build/index.js",
   "publishConfig": {
+    "access": "public",
     "registry":"https://npm.pkg.github.com"
   },
   "repository": {
